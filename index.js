@@ -22,7 +22,7 @@ console.log("Answers to the questions 3");
 function findMin(arr) {
     return Math.min(...arr);
 }
-const numbers = [5, 2, 9,0, 1, 7];
+const numbers = [5, 2, 9,5,0, 7];
 const minNumber = findMin(numbers);
 console.log(minNumber);
 
