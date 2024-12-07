@@ -63,3 +63,17 @@ let str1 = "Hello World";
 let str1_res = lowercaseFirstLetter(str1);
 console.log(str1_res);
 
+
+
+console.log("Answers to the questions 7");
+/*7) Write a function named findAverage that takes an array of numbers and returns the average of all elements. */
+function findAverage(arr) {
+    const sum = arr.reduce((acc, num) => acc + num, 0);
+    return sum / arr.length;
+}
+let arr = [1, 2, 3, 4, 5, 6]
+let arr_res =findAverage(arr);
+let arr5 = [10, 15, 20, 25, 30]
+let arr5_res =findAverage(arr5);
+console.log(arr_res);  
+console.log(arr5_res);
